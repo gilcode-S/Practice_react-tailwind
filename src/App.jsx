@@ -4,7 +4,8 @@ import Header from "./components/Header";
 import Details from "./pages/Details";
 import NextPage from "./pages/NextPage";
 import ClassPage from "./pages/ClassPage";
-
+import StatsPage from "./pages/StatsPage";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -14,6 +15,8 @@ const App = () => {
       <Details />
       <NextPage/>
       <ClassPage/>
+      <StatsPage/>
+      <Footer/>
     </>
   );
 };

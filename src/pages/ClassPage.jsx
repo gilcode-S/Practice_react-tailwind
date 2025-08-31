@@ -43,7 +43,7 @@ const ClassPage = () => {
       </div>
 
       {/* Divider */}
-      <hr className="my-12 border-t-2 border-gray-400 w-3/4 mx-auto" />
+      <hr className="my-12 border-t-2 border-gray-400 w-2/4 mx-auto" />
 
       {/* Filter Player Type */}
       <div className="mt-10">
@@ -65,6 +65,7 @@ const ClassPage = () => {
           </label>
         </div>
       </div>
+      <button className="bg-yellow-300 rounded-full p-2 m-2 mt-10 w-32 hover:bg-white transition duration-300 hover:scale-105 font-semibold font-mono">Next</button>
     </div>
   );
 };
